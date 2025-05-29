@@ -92,6 +92,7 @@ const Index = () => {
             <Button
               size="lg"
               className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-lg px-8"
+              onClick={() => window.open("https://TurboScratch.ru", "_blank")}
             >
               <Icon name="Play" size={20} className="mr-2" />
               Начать бесплатно
